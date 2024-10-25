@@ -73,7 +73,7 @@
     background-color: orange;
     border-color: orange;
 }
-.faq .btn-primary:hover {
+.faq .btn-primary:hover {}
 
 /* Contact page */
 .contact {
