@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AboutHalloween</title>
-    <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <title>About Halloween Haunted Walk</title>
+   <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 20px;
+       }
+
+       h1 {
+           text-align: center;
+           font-size: 2.5em;
+           text-shadow: 2px 2px 4px #000;
+       }
+
+       .info-section {
+           border-radius: 10px;
+           padding: 20px;
+           margin: 20px 0;
+           box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+       }
+
+       .icon {
+           font-size: 24px;
+           margin-right: 10px;
+       }
+
+       ul {
+           list-style-type: none;
+           padding: 0;
+       }
+
+       li {
+           margin: 10px 0;
+           padding: 10px;
+       }
+       .contact-info {
+           text-align: center;
+           margin-top: 30px;
+           padding: 20px;
+           border-radius: 10px;
+       }
+
+       .social-icons {
+           margin-top: 20px;
+       }
+
+       .social-icons i {
+           margin: 0 10px;
+           font-size: 30px;
+           cursor: pointer;
+           transition: color 0.3s;
+       }
+       .navhome{
+        margin-left: 30px;
+        font-size: 30px;
+       }
+       .navabout{
+        margin-left: 30px;
+        font-size: 30px;
+       }
+       .navfaq{
+        margin-left: 30px;
+        font-size: 30px;
+       }
+       .navcontact{
+        margin-left: 30px;
+        font-size: 30px;
+       }
+       .navbar-brand{
+        color: rgba(255, 102, 0, 0.3);
+        font-size: 40px;
+       }
+       .d-flex{
+        float:right;
+        font-size: 40px;
+       }
+   </style>
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="container">
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="nav-item">
+                        <a class="navbar-brand" >Halloween</a>
+                        <a border="1" class="navhome" href="index.html">Home</a>
+                        <a border="1" class="navabout active" href="about.html">About</a>
+                        <a border="1" class="navfaq" href="faq.html">FAQ</a>
+                        <a border="1" class="navcontact" href="contact.html">Contact</a>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    </nav>
+
+   <h1></i>About Our Halloween Haunted Walk</h1>
+
+   <div class="info-section">
+       <h2><i class="fas fa-info-circle icon"></i>What is Halloween Haunted Walk?</h2>
+       <p>Join us for an unforgettable Halloween experience through the spookiest paths of our town. Our carefully crafted route takes you through haunted locations, filled with surprises and scary encounters.</p>
+   </div>
+
+   <div class="info-section">
+       <h2><i class="fas fa-calendar-alt icon"></i>Event Details</h2>
+       <ul>
+           <li><i class="fas fa-clock icon"></i>Time: 20:00 - 23:00</li>
+           <li><i class="fas fa-map-marker-alt icon"></i>Starting Point: SyntraPXL Genk</li>
+           <li><i class="fas fa-euro-sign icon"></i>Price: €15 per person</li>
+           <li><i class="fas fa-users icon"></i>Age: 12+ recommended</li>
+       </ul>
+   </div>
+
+   <div class="info-section">
+       <h2><i class="fas fa-star icon"></i>What to Expect</h2>
+       <ul>
+           <li>Professional actors and scary setups</li>
+           <li>Themed refreshment stops</li>
+           <li>Photo opportunities</li>
+           <li>Safe and monitored route</li>
+           <li>Special effects and lighting</li>
+       </ul>
+   </div>
+
+   <div class="contact-info">
+       <h2><i class="fas fa-envelope icon"></i>Contact Us</h2>
+       <p>Email: info@halloweentocht.be</p>
+       <p>Phone: +32 123 45 67 89</p>
+       
+       <div class="social-icons">
+           <i class="fab fa-facebook"></i>
+           <i class="fab fa-instagram"></i>
+           <i class="fab fa-twitter"></i>
+       </div>
+   </div>
 </body>
 </html>
