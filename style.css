@@ -1,1 +1,77 @@
+/* Navbar background and text styles */
+.navbar {
+    background-color: black; /* Background color */
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: white; /* Text color for brand and links */
+  }
+  
+  /* Change link color on hover for better UX */
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active {
+    color: #f39c12; /* Orange accent color on hover or active */
+  }
+  
+  /* Optional: Make the navbar toggler icon white */
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  /* Optional: Style the search button */
+  .navbar .btn-outline-success {
+    color: white;
+    border-color: #f39c12;
+  }
+  
+  .navbar .btn-outline-success:hover {
+    background-color: #383227;
+    border-color: #f39c12;
+  }
+  .faq .card-header{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  .faq .card-body{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+  }
+  .faq h1,p{
+    color: white;
+  }
+.faq {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+.faq .logo {
+    width: 70px;
+}
+.faq h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.main,footer .container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    
+}
+.faq iframe {
+    width: 100%;
+    height: 450px;
+}
+.faq textarea {
+    height: 150px !important;
+}
+.faq .btn-primary {
+    background-color: orange;
+    border-color: orange;
+}
+.faq .btn-primary:hover {
+    border-color: black;
+}
